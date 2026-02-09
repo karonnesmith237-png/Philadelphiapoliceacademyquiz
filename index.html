@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Philadelphia Police Academy Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Philadelphia Police Department<br>Academy Quiz</h1>
+    <p style="font-size:12px;color:#666;margin:8px 0 16px">This quiz is strictly used to train probationary officers</p>
+    <form id="quiz-form">
+      <div class="field">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div class="field">
+        <label for="email">Email (optional)</label>
+        <input id="email" name="email" type="email">
+      </div>
+      <div id="questions"></div>
+      <button id="submit-btn" type="submit">Submit Answers</button>
+    </form>
+    <div id="message" role="status"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
