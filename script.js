@@ -9,7 +9,6 @@ const questions = [
   {id:8, text:'What is the difference between Lethal and Non Lethal Force?', type:'text'},
   {id:9, text:'What is the purpose of the Chain of Command? (2+ sentences)', type:'text'},
   {id:10, text:'What does the code 10-21 mean?', type:'text'},
-  {id:11, text:'What is your Discord and Roblox username?', type:'text'},
   {id:12, text:'What car are all PPD personnel allowed to operate while on duty?', type:'text'},
   {id:13, text:'What is the punishment for fake logging patrols?', type:'text'}
 ];
@@ -114,3 +113,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
   });
 });
+
